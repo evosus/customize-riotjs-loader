@@ -1,5 +1,5 @@
 var riot = require('riot-compiler'),
-    loaderUtils = require('loader-utils');
+  loaderUtils = require('loader-utils');
 
 
 module.exports = function (source) {
@@ -25,6 +25,18 @@ module.exports = function (source) {
         break;
     }
   });
+
+  riot.parsers.css.scss_ap = function (tag,css) {
+    var getdir        = require('path').dirname;
+    var opts = {
+      indentedSyntax: false,
+      omitSourceMapUrl: true,
+      outputStyle: 'compact',
+      data:css,
+      includePaths:[getdir(url)]
+    };
+    return require('postcss')([require('autoprefixer')]).process(require('node-sass').renderSync(opts).css).css
+  }
 
   try {
     return riot.compile(content, options);
