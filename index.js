@@ -26,7 +26,7 @@ module.exports = function (source) {
     }
   });
 
-  riot.parsers.css.scss_ap = function (tag,css) {
+  riot.parsers.css.scss_ap = function (tag,css,options, url) {
     var getdir        = require('path').dirname;
     var opts = {
       indentedSyntax: false,
