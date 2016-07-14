@@ -1,33 +1,39 @@
 {
-  "name": "riotjs-loader",
+  "name": "customize-riotjs-loader",
   "version": "3.0.0",
-  "description": "riotjs module loader for webpack",
+  "description": "froked from esnunes/riotjs-loader. riotjs module loader for webpack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/esnunes/riotjs-loader.git"
+    "url": "https://github.com/taketchi/customize-riotjs-loader.git"
   },
   "keywords": [
     "webpack",
     "loader",
     "riot",
     "riotjs",
-    "module"
+    "module",
+    "autoprefixer",
+    "node-sass",
+    "postcss"
   ],
   "author": {
-    "name": "Eduardo Nunes",
-    "email": "esnunes@gmail.com"
+    "name": "Hidenobu Takeshima",
+    "email": "taketchi@gmail.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/esnunes/riotjs-loader/issues"
+    "url": "https://github.com/taketchi/customize-riotjs-loader/issues"
   },
-  "homepage": "https://github.com/esnunes/riotjs-loader",
+  "homepage": "https://github.com/taketchi/customize-riotjs-loader",
   "dependencies": {
+    "autoprefixer": "^6.3.7",
     "loader-utils": "^0.2.6",
+    "node-sass": "^3.8.0",
+    "postcss": "^5.1.0",
     "riot-compiler": "^2.3.22"
   },
   "peerDependencies": {
