@@ -1,6 +1,6 @@
 {
   "name": "customize-riotjs-loader",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "froked from esnunes/riotjs-loader. riotjs module loader for webpack",
   "main": "index.js",
   "scripts": {
@@ -30,11 +30,11 @@
   },
   "homepage": "https://github.com/taketchi/customize-riotjs-loader",
   "dependencies": {
-    "autoprefixer": "^6.3.7",
-    "loader-utils": "^0.2.6",
-    "node-sass": "^3.8.0",
-    "postcss": "^5.1.0",
-    "riot-compiler": "^2.3.22"
+    "autoprefixer": "^6.7.0",
+    "loader-utils": "^0.2.16",
+    "node-sass": "^4.3.0",
+    "postcss": "^5.2.11",
+    "riot-compiler": "^3.1.2"
   },
   "peerDependencies": {
     "webpack": "^1.5.3"
