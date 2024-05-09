@@ -37,7 +37,7 @@ module.exports = function (source) {
       data:css,
       includePaths:[getdir(url)]
     };
-    return require('postcss')([require('autoprefixer')]).process(require('sass').renderSync(opts).css).css
+    return require('postcss')([require('autoprefixer')]).process(require('dart-sass').renderSync(opts).css).css
   }
 
   try {
