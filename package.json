@@ -4,7 +4,6 @@
   "description": "forked from taketchi/customize-riotjs-loader. riotjs module loader for webpack",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npm explore npm/node_modules/@npmcli/run-script -g --npm_config_global=false npm install node-gyp@latest",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
