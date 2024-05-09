@@ -4,7 +4,7 @@
   "description": "froked from esnunes/riotjs-loader. riotjs module loader for webpack",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npm explore npm/node_modules/@npmcli/run-script -g -- npm_config_global=false npm install node-gyp@latest",
+    "preinstall": "npm install --global node-gyp@latest",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
