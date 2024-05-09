@@ -1,15 +1,15 @@
 {
   "name": "customize-riotjs-loader",
   "version": "3.2.0",
-  "description": "froked from esnunes/riotjs-loader. riotjs module loader for webpack",
+  "description": "forked from taketchi/customize-riotjs-loader. riotjs module loader for webpack",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npm update --global node-gyp@latest",
+    "preinstall": "npm update --global node-gyp@10.1.0",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taketchi/customize-riotjs-loader.git"
+    "url": "https://github.com/evosus/customize-riotjs-loader.git"
   },
   "keywords": [
     "webpack",
@@ -22,14 +22,14 @@
     "postcss"
   ],
   "author": {
-    "name": "Hidenobu Takeshima",
-    "email": "taketchi@gmail.com"
+    "name": "James Hansen",
+    "email": "jhansen@evosus.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/taketchi/customize-riotjs-loader/issues"
+    "url": "https://github.com/evosus/customize-riotjs-loader/issues"
   },
-  "homepage": "https://github.com/taketchi/customize-riotjs-loader",
+  "homepage": "https://github.com/evosus/customize-riotjs-loader",
   "dependencies": {
     "autoprefixer": "^6.7.7",
     "loader-utils": "^1.1.0",
